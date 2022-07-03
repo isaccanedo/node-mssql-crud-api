@@ -55,3 +55,15 @@ Executing (default): ALTER TABLE [Users] ALTER COLUMN [createdAt] DATETIMEOFFSET
 Executing (default): ALTER TABLE [Users] ALTER COLUMN [updatedAt] DATETIMEOFFSET NOT NULL;
 Executing (default): EXEC sys.sp_helpindex @objname = N'[Users]';
 ```
+
+# Teste a API CRUD do Node + SQL Server com o Postman
+O Postman é uma ótima ferramenta para testar APIs, você pode baixá-lo em https://www.postman.com/downloads.
+
+Abaixo estão as instruções sobre como usar o Postman para realizar as seguintes ações:
+```
+Criar um novo usuário
+Recuperar uma lista de todos os usuários
+Recuperar um usuário por id
+Atualizar um usuário
+Excluir um usuário
+```
