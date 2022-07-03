@@ -134,4 +134,28 @@ Clique no botão Enviar, você deverá receber uma resposta "200 OK" com a mensa
 Clique no botão Enviar, você deverá receber uma resposta "200 OK" com a mensagem "Usuário atualizado" no corpo da resposta.
 
 
+# Como excluir um usuário com o Postman
+### Para excluir um usuário com a API, siga estas etapas:
+
+```
+1 - Abra uma nova guia de solicitação clicando no botão de adição (+) no final das guias;
+2 - Altere o método HTTP para DELETE com o seletor suspenso à esquerda do campo de entrada de URL;
+3 - No campo URL digite o endereço para a rota /users/{id} com o id do usuário que você deseja excluir, por exemplo - http://localhost:4000/users/1;
+4 - Clique no botão Enviar, você deverá receber uma resposta "200 OK" com a mensagem "Usuário excluído" no corpo da resposta.
+```
+
+# Execute um aplicativo Angular com a API CRUD Node + SQL Server
+### Para detalhes completos sobre o aplicativo Angular CRUD, veja o post Angular 11 - Exemplo CRUD com Formulários Reativos. Mas para começar a funcionar rapidamente, basta seguir as etapas abaixo.
+
+```
+1 - Baixe ou clone o código do tutorial Angular em https://github.com/isaccanedo/angular-11-crud-example;
+2 - Instale todos os pacotes npm necessários executando npm install a partir da linha de comando na pasta raiz do projeto (onde o package.json está localizado);
+3 - Remova ou comente a linha abaixo do provedor de comentários // usado para criar um backend falso localizado no arquivo /src/app/app.module.ts;
+4 - Inicie o aplicativo executando npm start a partir da linha de comando na pasta raiz do projeto, isso iniciará um navegador exibindo o aplicativo e ele deverá ser conectado à API Node.js + MSSQL CRUD que você já tem em execução.
+```
+
+#### Estrutura do projeto da API CRUD do Node.js + MSSQL
+O projeto de tutorial é estruturado em pastas de recursos (usuários) e pastas de componentes sem recursos/compartilhados (_helpers, _middleware). As pastas de componentes compartilhados contêm código que pode ser usado em vários recursos ou outras partes do aplicativo e são prefixados com um sublinhado _ para agrupá-los e facilitar a diferenciação entre o código específico do recurso e o compartilhado.
+
+O exemplo CRUD contém apenas um único recurso (usuários) no momento, mas pode ser facilmente estendido com outros recursos copiando a pasta de usuários e seguindo o mesmo padrão.
 
