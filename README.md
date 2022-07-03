@@ -23,9 +23,13 @@ https://code. visualstudio. com/.
 
 # Execute a API CRUD Node + MSSQL localmente
 ```
-Baixe ou clone o código-fonte do projeto em https://github.com/isaccanedo/node-mssql-crud-api
-Instale todos os pacotes npm necessários executando npm install ou npm i na linha de comando na pasta raiz do projeto (onde o package.json está localizado).
-Atualize as credenciais do banco de dados em /config.json para se conectar à sua instância do MS SQL Server e verifique se o servidor MSSQL está em execução.
-Inicie a API executando npm start (ou npm run dev to start with nodemon) na linha de comando na pasta raiz do projeto, você deverá ver a mensagem Server listen on port 4000.
-Siga as instruções abaixo para testar com o Postman ou conecte-se com um dos exemplos de aplicativos de página única disponíveis (React ou Angular).
+1 - Baixe ou clone o código-fonte do projeto em https://github.com/isaccanedo/node-mssql-crud-api
+2 - Instale todos os pacotes npm necessários executando npm install ou npm i na linha de comando na pasta raiz 
+do projeto (onde o package.json está localizado).
+3 - Atualize as credenciais do banco de dados em /config.json para se conectar à sua instância do MS SQL Server 
+e verifique se o servidor MSSQL está em execução.
+4 - Inicie a API executando npm start (ou npm run dev to start with nodemon) na linha de comando na pasta raiz 
+do projeto, você deverá ver a mensagem Server listen on port 4000.
+5 - Siga as instruções abaixo para testar com o Postman ou conecte-se com um dos exemplos de aplicativos de página 
+única disponíveis (React ou Angular).
 ```
