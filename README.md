@@ -67,3 +67,27 @@ Abaixo estão as instruções sobre como usar o Postman para realizar as seguint
 - Atualizar um usuário;
 - Excluir um usuário.
 ```
+
+# Como criar um novo usuário com o Postman
+Para criar um novo usuário com a API CRUD, siga estas etapas:
+
+```
+1 - Abra uma nova guia de solicitação clicando no botão de adição (+) no final das guias;
+2 - Altere o método HTTP para POST com o seletor suspenso à esquerda do campo de entrada de URL;
+3 - No campo URL insira o endereço para a rota de usuários de sua API local - http://localhost:4000/users;
+4 - Selecione a guia Corpo abaixo do campo URL, altere o botão de opção do tipo de corpo para bruto e altere o seletor suspenso de formato para JSON;
+5 - Insira um objeto JSON contendo as propriedades de usuário necessárias na área de texto do corpo, por exemplo:
+```
+
+```
+{
+    "title": "Mr",
+    "firstName": "George",
+    "lastName": "Costanza",
+    "role": "User",
+    "email": "george@costanza.com",
+    "password": "george-likes-spicy-chicken",
+    "confirmPassword": "george-likes-spicy-chicken"
+}
+```
+
