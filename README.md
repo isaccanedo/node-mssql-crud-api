@@ -90,4 +90,48 @@ Para criar um novo usuário com a API CRUD, siga estas etapas:
     "confirmPassword": "george-likes-spicy-chicken"
 }
 ```
+Clique no botão Enviar, você deverá receber uma resposta "200 OK" com a mensagem "Usuário criado" no corpo da resposta.
+
+# Como recuperar uma lista de todos os usuários com o Postman
+
+### Para obter uma lista de todos os usuários da API Node + MSSQL CRUD, siga estas etapas:
+
+```
+1 - Abra uma nova guia de solicitação clicando no botão de adição (+) no final das guias;
+2 - Altere o método HTTP para GET com o seletor suspenso à esquerda do campo de entrada de URL;
+3 - No campo URL insira o endereço para a rota de usuários de sua API local - http://localhost:4000/users;
+4 - Clique no botão Enviar, você deverá receber uma resposta "200 OK" contendo uma matriz JSON com todos os registros de usuário no sistema;
+```
+
+# Como recuperar um usuário por id com o Postman
+
+### Para obter um usuário específico por id da API Node + MSSQL CRUD siga estas etapas:
+```
+1 - Abra uma nova guia de solicitação clicando no botão de adição (+) no final das guias;
+2 - Altere o método HTTP para GET com o seletor suspenso à esquerda do campo de entrada de URL;
+3 - No campo URL digite o endereço para a rota /users/{id} com o id do usuário que você deseja recuperar, por exemplo - http://localhost:4000/users/1;
+4 - Clique no botão Enviar, você deverá receber uma resposta "200 OK" contendo um objeto JSON com os detalhes do usuário especificados.
+```
+
+# Como atualizar um usuário com o Postman
+### Para atualizar um usuário com a API CRUD, siga estas etapas:
+
+```
+1 - Abra uma nova guia de solicitação clicando no botão de adição (+) no final das guias;
+2 - Altere o método HTTP para PUT com o seletor suspenso à esquerda do campo de entrada de URL;
+3 - No campo URL digite o endereço para a rota /users/{id} com o id do usuário que você deseja atualizar, por exemplo - http://localhost:4000/users/1;
+4 - Selecione a guia Corpo abaixo do campo URL, altere o botão de opção do tipo de corpo para bruto e altere o seletor suspenso de formato para JSON;
+5 - Insira um objeto JSON na área de texto Corpo contendo as propriedades que você deseja atualizar, por exemplo, para atualizar o nome e o sobrenome:
+```
+
+```
+{
+    "firstName": "Art",
+    "lastName": "Vandelay"
+}
+```
+
+Clique no botão Enviar, você deverá receber uma resposta "200 OK" com a mensagem "Usuário atualizado" no corpo da resposta.
+
+
 
