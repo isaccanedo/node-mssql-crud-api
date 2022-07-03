@@ -61,9 +61,9 @@ O Postman é uma ótima ferramenta para testar APIs, você pode baixá-lo em htt
 
 Abaixo estão as instruções sobre como usar o Postman para realizar as seguintes ações:
 ```
-Criar um novo usuário
-Recuperar uma lista de todos os usuários
-Recuperar um usuário por id
-Atualizar um usuário
-Excluir um usuário
+- Criar um novo usuário;
+- Recuperar uma lista de todos os usuários;
+- Recuperar um usuário por id;
+- Atualizar um usuário;
+- Excluir um usuário.
 ```
