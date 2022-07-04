@@ -1,6 +1,6 @@
 # node-mssql-crud-api
 
-Node.js + MS SQL Server - CRUD API Example
+Node.js + MS SQL Server - CRUD API Examplo
 
 # Ferramentas necessárias para este tutorial
 Para seguir as etapas deste tutorial, você precisará do seguinte:
